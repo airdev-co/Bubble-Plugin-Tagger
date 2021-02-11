@@ -1,0 +1,52 @@
+{
+    "category": "plugins",
+    "display": "Clear Mentions",
+    "fields": {
+        "AAw": {
+            "caption": "(1) Clear specific visible elements",
+            "editor": "Label",
+            "name": "clear_specific_elements",
+            "rank": 0
+        },
+        "AAx": {
+            "caption": "ID attribute of elements",
+            "doc": "List of elements to clear (enter ID attributes separated by ,)",
+            "editor": "DynamicValue",
+            "name": "IdAttributes",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "AAy": {
+            "caption": "OR (2) Clear all visible of a certain type",
+            "editor": "Label",
+            "name": "or_alternatively",
+            "rank": 2
+        },
+        "ABA": {
+            "caption": "Clear all of type",
+            "default_val": "None",
+            "doc": "Clear all elements of a certain type",
+            "editor": "Dropdown",
+            "name": "clearall",
+            "options": "None,Input,Multiline Input",
+            "rank": 3
+        },
+        "ABB": {
+            "caption": "-----  Configure mentions below ----",
+            "editor": "Label",
+            "name": "provide_hashtag_data_below",
+            "rank": 4
+        },
+        "ABC": {
+            "caption": "Trigger character",
+            "default_val": "@",
+            "doc": "Character to clear",
+            "editor": "StaticText",
+            "name": "trigger_character",
+            "rank": 5,
+            "value": "text"
+        }
+    },
+    "type": "client_side"
+}

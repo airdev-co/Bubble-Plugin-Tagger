@@ -1,0 +1,84 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "Extract",
+    "edit_mode_image": "//s3.amazonaws.com/appforest_uf/f1507659434705x154366774018853900/Linkify.PNG",
+    "fields": {
+        "AAD": {
+            "caption": "Input",
+            "doc": "Plug in your source data here",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "source",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAS": {
+            "caption": "bbcode link colors",
+            "default_val": "blue",
+            "doc": "Color or hex code including #",
+            "editor": "DynamicValue",
+            "in_style": true,
+            "name": "bbcode_link_color",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "has_reset_fn": true,
+    "icon": "ion-ios-list-outline",
+    "property_applications": {
+        "resizable": true
+    },
+    "states": {
+        "AAE": {
+            "caption": "Emails",
+            "doc": "Emails in the source",
+            "is_list": true,
+            "name": "emails",
+            "value": "text"
+        },
+        "AAF": {
+            "caption": "Links",
+            "doc": "Links in the source",
+            "is_list": true,
+            "name": "urls",
+            "value": "text"
+        },
+        "AAG": {
+            "caption": "#Tags",
+            "doc": "Hashtags (#) in the source",
+            "is_list": true,
+            "name": "hashtags",
+            "value": "text"
+        },
+        "AAH": {
+            "caption": "@Mentions",
+            "doc": "Mentions (@) in the source",
+            "is_list": true,
+            "name": "mentions",
+            "value": "text"
+        },
+        "AAI": {
+            "caption": "HTML Text",
+            "doc": "HTML Pre-fromatted text",
+            "name": "html_text",
+            "value": "text"
+        },
+        "AAJ": {
+            "caption": "Other",
+            "doc": "Error / Fields not captured",
+            "name": "linkifiedtext",
+            "value": "text"
+        },
+        "AAR": {
+            "caption": "BB Code",
+            "doc": "BB Code formatted text",
+            "name": "bbcode",
+            "value": "text"
+        }
+    }
+}

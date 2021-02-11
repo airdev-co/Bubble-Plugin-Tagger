@@ -1,0 +1,73 @@
+{
+    "category": "plugins",
+    "display": "Setup Mentions",
+    "fields": {
+        "AAZ": {
+            "caption": "(1) Apply to specific visible elements",
+            "editor": "Label",
+            "name": "apply_to_specific_elements",
+            "rank": 0
+        },
+        "AAa": {
+            "caption": "ID attribute of elements",
+            "doc": "List of elements to apply (enter ID attributes separated by ,)",
+            "editor": "DynamicValue",
+            "name": "IdAttributes",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "AAb": {
+            "caption": "OR (2) Apply to all visible",
+            "editor": "Label",
+            "name": "or_alternatively",
+            "rank": 2
+        },
+        "AAc": {
+            "caption": "Apply to all",
+            "default_val": "None",
+            "doc": "Apply to all of type",
+            "editor": "Dropdown",
+            "name": "attachToAll",
+            "options": "None,Input,Multiline Input",
+            "rank": 3
+        },
+        "AAd": {
+            "caption": "Trigger character",
+            "default_val": "@",
+            "doc": "Character which triggers this",
+            "editor": "StaticText",
+            "name": "trigger_character",
+            "rank": 5
+        },
+        "AAe": {
+            "caption": "When user selects...",
+            "doc": "These show up in dropdown",
+            "editor": "DynamicValue",
+            "name": "KeysToType",
+            "rank": 6,
+            "value": "text"
+        },
+        "AAg": {
+            "caption": "Replace with...",
+            "doc": "These values to replace corresponding selection",
+            "editor": "DynamicValue",
+            "name": "ValuesToDisplay",
+            "rank": 7,
+            "value": "text"
+        },
+        "AAr": {
+            "caption": "Note: Make sure to enter color info on plugins tab",
+            "editor": "Label",
+            "name": "entercolorinfo",
+            "rank": 8
+        },
+        "AAs": {
+            "caption": "-----  Configure mentions below ----",
+            "editor": "Label",
+            "name": "provide_hashtag_data_below",
+            "rank": 4
+        }
+    },
+    "type": "client_side"
+}

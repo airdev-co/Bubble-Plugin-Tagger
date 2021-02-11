@@ -1,0 +1,23 @@
+{
+    "assets": {
+        "AAp": {
+            "name": "tribute.css",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1515718821672x382058213232085100/tribute.css"
+        },
+        "AAq": {
+            "name": "tribute.js",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1515718834787x233241317793726900/tribute.js"
+        },
+        "AAt": {
+            "name": "tribute-7.9.0.js",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1588348755134x612619409403329700/tribute.js"
+        },
+        "AAu": {
+            "name": "tribute-7.9.0.css",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1588348804238x989271584628493600/tribute.css"
+        }
+    },
+    "dependencies": {
+        "use_jquery": true
+    }
+}

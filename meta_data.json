@@ -1,0 +1,17 @@
+{
+    "categories": {
+        "0": "visual elements",
+        "1": "technical",
+        "2": "social network",
+        "3": "customer support",
+        "4": "blog"
+    },
+    "demo_page": "https://bubble.is/page?type=page&name=mentions&id=demoplugins&tab=tabs-1",
+    "description": "1. Extract: Extract Emails, #tags, @mentions, Urls from any text source. Also get a html tagged formatted text for direct use.\n2. Mentions: Use inline mentions while typing just like you see on facebook, twitter, slack etc.",
+    "image": "//s3.amazonaws.com/appforest_uf/f1507755788458x368312072707340100/tagger.png",
+    "instructions": "1. Extract:\n(i) Install the 'extract' element on the page\n(ii) The source data goes into the input on extractor\n(iii) The extracted values are accessed as This Extractor's emails, urls, hashtags, mentions etc.\n\n2. Mentions:\n(i) Specify the color of mentions in plugins tab\n(ii) Use the 'Setup Mentions' workflow action after page (entire) is loaded / whenever you want. That's it !",
+    "license": "open_source",
+    "link": "https://airdev.co",
+    "name": "Tagger",
+    "plugin_instructions": "1. Extract:\n(i) Install the 'extract' element on the page\n(ii) The source data goes into the input on extractor\n(iii) The extracted values are accessed as This Extractor's emails, urls, hashtags, mentions etc.\n\n2. Mentions:\n(i) Specify the color of mentions in plugins tab\n(ii) Use the 'Setup Mentions' workflow action after page (entire) is loaded / whenever you want. That's it !\n\nFor more detailed instructions, please refer the following links:\n1. https://buildingonbubble.com/block/tagger-plugin-for-mentions-1515412723033x963917052088942600\n2. https://forum.bubble.is/t/new-plugin-tagger/18909\n\n"
+}
