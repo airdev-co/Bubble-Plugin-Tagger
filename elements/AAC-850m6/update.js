@@ -127,7 +127,7 @@ function(instance, properties, context) {
 	html = html.replace(/<!--(.*?)-->/gmi, "\n");
 
 	html = html.replace(/\/\//gi, "/");
-	html = html.replace(/http:\//gi, "http://");
+	html = html.replace(/(https?):\//gi, "$1://");
 
 	html = html.replace(/<(?:[^>'"]*|(['"]).*?\1)*>/gmi, "");
 	html = html.replace(/\r\r/gi, ""); 
